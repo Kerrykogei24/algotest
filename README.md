@@ -65,11 +65,11 @@ This project demonstrates the implementation and comparison of various encryptio
 
 
 ## Usage
-1. Run the application by executing the following command:
+1. Run the application by executing the following command:the first one test DES, 3DES, AES, Blowfish  and the second command test RSA: 
 
    ```bash
    python test.py
-   rsa_test.py
+   python rsa_test.py
 
 
 2. The application will open a graphical user interface (GUI) window.
