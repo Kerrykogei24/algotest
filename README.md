@@ -47,12 +47,30 @@ This project demonstrates the implementation and comparison of various encryptio
    ```bash
    pip install pycryptodome tkinter
 
+## Generating RSA Key Pair
+
+1. To test the RSA encryption and decryption, you need an RSA key pair. 
+ You can generate a new RSA key pair using the provided generate_rsa_keypair.py script or using other methods.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. Run the following command to generate the RSA key pair:
+
+    ```bash
+    python generate_rsa_keypair.py
+    ```
+
+
+4. The script will generate an RSA key pair and display the public and private keys in the console. Make note of these keys for testing.
+
 
 ## Usage
 1. Run the application by executing the following command:
 
    ```bash
    python test.py
+   rsa_test.py
+
 
 2. The application will open a graphical user interface (GUI) window.
 
